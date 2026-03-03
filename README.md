@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>An End-to-End Automated Academic Analytics & Issue Resolution Platform</b><br>
-  Designed to streamline student performance tracking and institutional support systems.
+  Designed to streamline student performance tracking and institutional support workflows.
 </p>
 
 ---
@@ -19,6 +19,10 @@
   <img src="https://img.shields.io/badge/🌐_Live_Web_App-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white"/>
 </a>
 
+<a href="https://docs.google.com/spreadsheets/d/1pfKE8nWOIghgew9lF2CqLoidj8pdKDlWQvvNUwZz5wM/edit?usp=sharing" target="_blank">
+  <img src="https://img.shields.io/badge/📊_View_Google_Sheet-34A853?style=for-the-badge&logo=googlesheets&logoColor=white"/>
+</a>
+
 <a href="Project_Documentation.pdf">
   <img src="https://img.shields.io/badge/📄_View_Documentation-000000?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/>
 </a>
@@ -33,21 +37,21 @@
 
 # 📌 Problem Statement
 
-Educational institutions often face challenges such as:
+Educational institutions often struggle with:
 
-- Manual student performance tracking
-- No automated communication system
-- Lack of structured issue resolution
-- No transparency in ticket handling
-- Delayed intervention for at-risk students
+- Manual student performance tracking  
+- No automated reporting system  
+- Unstructured issue resolution  
+- No transparent ticket tracking  
+- Delayed academic risk detection  
 
-These inefficiencies reduce academic visibility and delay problem resolution.
+These inefficiencies result in poor visibility and slower administrative action.
 
 ---
 
 # 💡 Project Overview
 
-The **Smart Feedback & Student Performance Management System** is a fully automated workflow platform that transforms raw academic data into actionable insights and structured support management.
+The **Smart Feedback & Student Performance Management System** is a fully automated workflow platform that transforms raw student data into structured insights and actionable support mechanisms.
 
 It integrates:
 
@@ -55,9 +59,9 @@ It integrates:
 - 📩 Automated Email Reporting  
 - 🎫 Smart Ticket Generation  
 - 🌐 Live Ticket Tracking Portal  
-- 📈 Risk Prediction Engine  
+- 📈 Academic Risk Prediction  
 
-This system bridges academic monitoring with structured issue resolution in a single automated pipeline.
+This system connects performance monitoring with structured issue management in one seamless automation pipeline.
 
 ---
 
@@ -66,7 +70,7 @@ This system bridges academic monitoring with structured issue resolution in a si
 ## 🔄 End-to-End Workflow
 
 ```
-Student Data (Excel / SQL)
+Student Data (Google Sheets / Excel)
         ↓
 Performance & Risk Engine
         ↓
@@ -96,42 +100,42 @@ Web-Based Ticket Tracker
 # ⚙️ Core Features
 
 ## 📊 1. Performance Analytics Engine
-- Attendance percentage calculation
-- Semester-wise marks analysis
-- Average score computation
+- Attendance percentage calculation  
+- Semester-wise marks analysis  
+- Automated average computation  
 - Performance classification:
   - Excellent
   - Very Good
   - Good
   - Average
-  - Poor
-- Risk detection based on attendance & marks
+  - Poor  
+- Risk detection based on attendance and performance  
 
 ---
 
 ## 📩 2. Automated Weekly Email Reports
-- Personalized academic summary
-- Attendance & risk alerts
-- Fee status updates
-- Direct dashboard link
-- Fully automated using Google Apps Script
+- Personalized academic summary  
+- Attendance & risk alerts  
+- Fee status updates  
+- Direct dashboard link  
+- Fully automated using Google Apps Script  
 
 ---
 
 ## 🎫 3. Smart Ticket Management System
-- Conditional issue submission form
-- Unique Ticket ID generation
-- Automatic database logging
-- Confirmation email sent to student
-- Status tracking capability
+- Conditional issue submission form  
+- Unique Ticket ID generation  
+- Automatic database logging  
+- Confirmation email sent to student  
+- Ticket status tracking system  
 
 ---
 
 ## 🌐 4. Web-Based Ticket Tracker
 Students can:
-- Enter their Ticket ID
-- Check live status
-- View resolution updates
+- Enter their Ticket ID  
+- Check live status  
+- View resolution updates  
 
 ---
 
@@ -178,13 +182,13 @@ const riskPredictor =
 
 # 📈 Real-World Applications
 
-This architecture can scale beyond educational institutions into:
+This architecture can scale into:
 
-- Corporate employee performance tracking
-- HR grievance management systems
-- Customer support helpdesk platforms
-- SaaS ticketing systems
-- Enterprise workflow automation tools
+- Corporate performance monitoring systems  
+- HR grievance management platforms  
+- Customer support helpdesk solutions  
+- SaaS-based ticketing tools  
+- Enterprise workflow automation systems  
 
 ---
 
@@ -192,30 +196,30 @@ This architecture can scale beyond educational institutions into:
 
 This project demonstrates:
 
-- End-to-End System Design
-- Automation Workflow Engineering
-- Backend Logic Development
-- Product-Oriented Thinking
-- Real-World Problem Solving
-- Scalable Architecture Planning
+- End-to-End System Design  
+- Automation Workflow Engineering  
+- Backend Logic Development  
+- Product-Level Thinking  
+- Scalable Architecture Planning  
+- Real-World Problem Solving  
 
 ---
 
 # 🔒 Data Privacy Notice
 
-All data included in this repository is sample/demo data for academic purposes only.  
-No real student data is publicly shared.
+All data used in this repository is sample/demo data for academic purposes only.  
+Sensitive information should not be publicly exposed in production environments.
 
 ---
 
 # 🔮 Future Enhancements (Version 2.0)
 
-- Admin analytics dashboard with ticket statistics
-- Firebase / Supabase database integration
-- Role-based authentication system
-- AI-based risk scoring model
-- Deployment on Vercel / Netlify
-- Advanced analytics dashboards using BI tools
+- Admin analytics dashboard with ticket statistics  
+- Firebase / Supabase database integration  
+- Role-based authentication system  
+- AI-based risk scoring model  
+- Deployment on Vercel / Netlify  
+- Advanced BI reporting dashboards  
 
 ---
 
@@ -227,4 +231,4 @@ Focused on Automation, System Design & Data Analytics
 
 ---
 
-⭐ If you found this project interesting, consider giving it a star!
+⭐ If you found this project valuable, consider giving it a star!

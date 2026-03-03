@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>An End-to-End Automated Academic Analytics & Issue Resolution Platform</b><br>
-  Designed to streamline student performance tracking and institutional support workflows.
+  Designed to streamline student performance tracking and institutional workflows.
 </p>
 
 ---
@@ -23,11 +23,11 @@
   <img src="https://img.shields.io/badge/📊_View_Google_Sheet-34A853?style=for-the-badge&logo=googlesheets&logoColor=white"/>
 </a>
 
-<a href="Project_Documentation.pdf">
+<a href="https://github.com/sidducv0528/Student-Performance-Issue-Management-System/blob/main/Project_Documentation.pdf" target="_blank">
   <img src="https://img.shields.io/badge/📄_View_Documentation-000000?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/>
 </a>
 
-<a href="architecture.png">
+<a href="https://github.com/sidducv0528/Student-Performance-Issue-Management-System/blob/main/architecture.png.png" target="_blank">
   <img src="https://img.shields.io/badge/🏗️_View_Architecture-2E8B57?style=for-the-badge"/>
 </a>
 
@@ -45,7 +45,7 @@ Educational institutions often struggle with:
 - No transparent ticket tracking  
 - Delayed academic risk detection  
 
-These inefficiencies result in poor visibility and slower administrative action.
+These inefficiencies reduce academic visibility and slow down administrative response.
 
 ---
 
@@ -61,7 +61,7 @@ It integrates:
 - 🌐 Live Ticket Tracking Portal  
 - 📈 Academic Risk Prediction  
 
-This system connects performance monitoring with structured issue management in one seamless automation pipeline.
+This system connects performance monitoring with structured issue management in a seamless automation pipeline.
 
 ---
 
@@ -93,26 +93,7 @@ Web-Based Ticket Tracker
 
 ## 📊 Architecture Preview
 
-![System Architecture](architecture.png)
-
-## 📊 Student Dashboard
-![Student Dashboard](screenshots/01_student_dashboard.png)
-
-## 📩 Automated Email Report
-![Automated Email](screenshots/02_automated_email.png)
-
-## 📝 Feedback Form
-![Feedback Form](screenshots/03_feedback_form.png)
-
-## 🎫 Ticket Database
-![Ticket Database](screenshots/04_ticket_database.png)
-
-## 🌐 Web Ticket Tracker
-![Ticket Tracker](screenshots/05_ticket_tracker_webapp.png)
-
-## 📈 Admin Analytics Dashboard
-![Admin Dashboard](screenshots/06_admin_dashboard.png)
-
+![System Architecture](architecture.png.png)
 
 ---
 
@@ -128,7 +109,7 @@ Web-Based Ticket Tracker
   - Good
   - Average
   - Poor  
-- Risk detection based on attendance and performance  
+- Risk detection based on attendance and marks  
 
 ---
 
@@ -158,21 +139,6 @@ Students can:
 
 ---
 
-# 🧠 Risk Prediction Logic (Sample)
-
-```javascript
-const performance =
-  avgVal >= 75 ? "Excellent" :
-  avgVal >= 50 ? "Good" :
-  "Needs Improvement";
-
-const riskPredictor =
-  attVal < 75 ? "High Risk (Attendance below 75%)" :
-  "Safe";
-```
-
----
-
 # 🛠️ Tech Stack
 
 | Layer | Technology |
@@ -186,12 +152,34 @@ const riskPredictor =
 
 ---
 
+# 📸 Project Screenshots
+
+## 📊 Student Dashboard
+![Student Dashboard](screenshots/01_student_dashboard.png)
+
+## 📩 Automated Email Report
+![Automated Email](screenshots/02_automated_email.png)
+
+## 📝 Feedback Form
+![Feedback Form](screenshots/03_feedback_form.png)
+
+## 🎫 Ticket Database
+![Ticket Database](screenshots/04_ticket_database.png)
+
+## 🌐 Web Ticket Tracker
+![Ticket Tracker](screenshots/05_ticket_tracker_webapp.png)
+
+## 📈 Admin Analytics Dashboard
+![Admin Dashboard](screenshots/06_admin_dashboard.png)
+
+---
+
 # 📂 Project Structure
 
 ```
 📁 Student-Performance-Issue-Management-System
  ├── README.md
- ├── architecture.png
+ ├── architecture.png.png
  ├── Project_Documentation.pdf
  ├── google_apps_script.gs
  ├── screenshots/
@@ -228,20 +216,6 @@ This project demonstrates:
 
 All data used in this repository is sample/demo data for academic purposes only.  
 Sensitive information should not be publicly exposed in production environments.
-
----
-
-# 🔮 Future Enhancements (Version 2.0)
-
-- Admin analytics dashboard with ticket statistics  
-- Firebase / Supabase database integration  
-- Role-based authentication system  
-- AI-based risk scoring model  
-- Deployment on Vercel / Netlify  
-- Advanced BI reporting dashboards
-
-- # 📸 Project Screenshots
-
 
 ---
 

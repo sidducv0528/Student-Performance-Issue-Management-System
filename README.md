@@ -95,6 +95,25 @@ Web-Based Ticket Tracker
 
 ![System Architecture](architecture.png)
 
+## 📊 Student Dashboard
+![Student Dashboard](screenshots/01_student_dashboard.png)
+
+## 📩 Automated Email Report
+![Automated Email](screenshots/02_automated_email.png)
+
+## 📝 Feedback Form
+![Feedback Form](screenshots/03_feedback_form.png)
+
+## 🎫 Ticket Database
+![Ticket Database](screenshots/04_ticket_database.png)
+
+## 🌐 Web Ticket Tracker
+![Ticket Tracker](screenshots/05_ticket_tracker_webapp.png)
+
+## 📈 Admin Analytics Dashboard
+![Admin Dashboard](screenshots/06_admin_dashboard.png)
+
+
 ---
 
 # ⚙️ Core Features
@@ -219,7 +238,10 @@ Sensitive information should not be publicly exposed in production environments.
 - Role-based authentication system  
 - AI-based risk scoring model  
 - Deployment on Vercel / Netlify  
-- Advanced BI reporting dashboards  
+- Advanced BI reporting dashboards
+
+- # 📸 Project Screenshots
+
 
 ---
 

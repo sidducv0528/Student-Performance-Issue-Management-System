@@ -19,7 +19,7 @@ This project solves that.
 🎥 Live Demo
 
 ▶️ Watch Demo Video:
-Click Here to Watch
+https://youtu.be/24SNZvqx7Ls
 
 🏗 System Architecture
 

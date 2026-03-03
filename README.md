@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>An End-to-End Automated Academic Analytics & Issue Resolution Platform</b><br>
-  Designed to streamline student performance tracking and institutional workflows.
+  Built to streamline student performance tracking and smart issue management.
 </p>
 
 ---
@@ -23,11 +23,11 @@
   <img src="https://img.shields.io/badge/📊_View_Google_Sheet-34A853?style=for-the-badge&logo=googlesheets&logoColor=white"/>
 </a>
 
-<a href="https://github.com/sidducv0528/Student-Performance-Issue-Management-System/blob/main/Project_Documentation.pdf" target="_blank">
+<a href="https://github.com/sidducv0528/Student-Performance-Issue-Management-System/blob/main/documentation/Project_Documentation.pdf" target="_blank">
   <img src="https://img.shields.io/badge/📄_View_Documentation-000000?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/>
 </a>
 
-<a href="https://github.com/sidducv0528/Student-Performance-Issue-Management-System/blob/main/architecture.png.png" target="_blank">
+<a href="https://github.com/sidducv0528/Student-Performance-Issue-Management-System/blob/main/Architecture/architecture.png.png" target="_blank">
   <img src="https://img.shields.io/badge/🏗️_View_Architecture-2E8B57?style=for-the-badge"/>
 </a>
 
@@ -37,63 +37,37 @@
 
 # 📌 Problem Statement
 
-Educational institutions often struggle with:
+Educational institutions often face:
 
-- Manual student performance tracking  
-- No automated reporting system  
-- Unstructured issue resolution  
-- No transparent ticket tracking  
-- Delayed academic risk detection  
+- Manual performance tracking  
+- No automated weekly reporting  
+- No structured grievance system  
+- Delayed academic risk identification  
+- Poor transparency in issue resolution  
 
-These inefficiencies reduce academic visibility and slow down administrative response.
+This leads to inefficiency and slow administrative response.
 
 ---
 
 # 💡 Project Overview
 
-The **Smart Feedback & Student Performance Management System** is a fully automated workflow platform that transforms raw student data into structured insights and actionable support mechanisms.
+The **Smart Feedback & Student Performance Management System** is a fully automated workflow platform that transforms raw student data into structured academic insights and actionable support mechanisms.
 
 It integrates:
 
 - 📊 Performance Analytics  
-- 📩 Automated Email Reporting  
+- 📩 Automated Email Reports  
 - 🎫 Smart Ticket Generation  
 - 🌐 Live Ticket Tracking Portal  
-- 📈 Academic Risk Prediction  
+- 📈 Academic Risk Detection  
 
-This system connects performance monitoring with structured issue management in a seamless automation pipeline.
+This creates a seamless academic monitoring and support ecosystem.
 
 ---
 
 # 🏗️ System Architecture
 
-## 🔄 End-to-End Workflow
-
-```
-Student Data (Google Sheets / Excel)
-        ↓
-Performance & Risk Engine
-        ↓
-Dashboard Generation
-        ↓
-PDF Auto Creation
-        ↓
-Weekly Automated Email
-        ↓
-Smart Feedback Form
-        ↓
-Auto Ticket Generation
-        ↓
-Admin Monitoring
-        ↓
-Web-Based Ticket Tracker
-```
-
----
-
-## 📊 Architecture Preview
-
-![System Architecture](architecture.png.png)
+![System Architecture](https://raw.githubusercontent.com/sidducv0528/Student-Performance-Issue-Management-System/main/Architecture/architecture.png.png)
 
 ---
 
@@ -102,39 +76,35 @@ Web-Based Ticket Tracker
 ## 📊 1. Performance Analytics Engine
 - Attendance percentage calculation  
 - Semester-wise marks analysis  
-- Automated average computation  
-- Performance classification:
-  - Excellent
-  - Very Good
-  - Good
-  - Average
-  - Poor  
-- Risk detection based on attendance and marks  
+- Automatic average computation  
+- Performance classification (Excellent to Poor)  
+- Risk prediction based on attendance & marks  
 
 ---
 
-## 📩 2. Automated Weekly Email Reports
+## 📩 2. Automated Weekly Email System
 - Personalized academic summary  
-- Attendance & risk alerts  
-- Fee status updates  
-- Direct dashboard link  
+- Attendance alerts  
+- Risk notifications  
+- Fee reminders  
+- Dashboard link included  
 - Fully automated using Google Apps Script  
 
 ---
 
-## 🎫 3. Smart Ticket Management System
-- Conditional issue submission form  
-- Unique Ticket ID generation  
-- Automatic database logging  
-- Confirmation email sent to student  
-- Ticket status tracking system  
+## 🎫 3. Smart Ticket Management
+- Conditional feedback form  
+- Auto Ticket ID generation  
+- Stored in database (Google Sheets)  
+- Confirmation email to student  
+- Ticket status updates  
 
 ---
 
 ## 🌐 4. Web-Based Ticket Tracker
 Students can:
-- Enter their Ticket ID  
-- Check live status  
+- Enter Ticket ID  
+- Check issue status  
 - View resolution updates  
 
 ---
@@ -144,78 +114,62 @@ Students can:
 | Layer | Technology |
 |-------|------------|
 | Data Storage | Google Sheets |
-| Backend | Google Apps Script |
-| Logic | JavaScript |
-| UI | HTML / CSS |
-| Reporting | Excel Dashboards |
-| Email Automation | MailApp Service |
+| Backend Logic | Google Apps Script |
+| Programming | JavaScript |
+| Frontend | HTML / CSS |
+| Reporting | Excel Dashboard |
+| Email Service | MailApp |
 
 ---
 
 # 📸 Project Screenshots
 
 ## 📊 Student Dashboard
-![Student Dashboard](screenshots/01_student_dashboard.png)
+![Student Dashboard](https://raw.githubusercontent.com/sidducv0528/Student-Performance-Issue-Management-System/main/Screenshots/01_student_dashboard.png)
 
 ## 📩 Automated Email Report
-![Automated Email](screenshots/02_automated_email.png)
+![Automated Email](https://raw.githubusercontent.com/sidducv0528/Student-Performance-Issue-Management-System/main/Screenshots/02_automated_email.png)
 
 ## 📝 Feedback Form
-![Feedback Form](screenshots/03_feedback_form.png)
+![Feedback Form](https://raw.githubusercontent.com/sidducv0528/Student-Performance-Issue-Management-System/main/Screenshots/03_feedback_form.png)
 
 ## 🎫 Ticket Database
-![Ticket Database](screenshots/04_ticket_database.png)
+![Ticket Database](https://raw.githubusercontent.com/sidducv0528/Student-Performance-Issue-Management-System/main/Screenshots/04_ticket_database.png)
 
 ## 🌐 Web Ticket Tracker
-![Ticket Tracker](screenshots/05_ticket_tracker_webapp.png)
+![Ticket Tracker](https://raw.githubusercontent.com/sidducv0528/Student-Performance-Issue-Management-System/main/Screenshots/05_ticket_tracker_webapp.png)
 
-## 📈 Admin Analytics Dashboard
-![Admin Dashboard](screenshots/06_admin_dashboard.png)
+## 📈 Admin Dashboard
+![Admin Dashboard](https://raw.githubusercontent.com/sidducv0528/Student-Performance-Issue-Management-System/main/Screenshots/06_admin_dashboard.png)
 
 ---
 
 # 📂 Project Structure
 
 ```
-📁 Student-Performance-Issue-Management-System
+Student-Performance-Issue-Management-System
  ├── README.md
- ├── architecture.png.png
- ├── Project_Documentation.pdf
- ├── google_apps_script.gs
- ├── screenshots/
+ ├── LICENSE
+ ├── Architecture/
+ ├── Screenshots/
+ ├── automation/
+ ├── documentation/
 ```
 
 ---
 
-# 📈 Real-World Applications
-
-This architecture can scale into:
-
-- Corporate performance monitoring systems  
-- HR grievance management platforms  
-- Customer support helpdesk solutions  
-- SaaS-based ticketing tools  
-- Enterprise workflow automation systems  
-
----
-
-# 🚀 Why This Project Stands Out
+# 🚀 Why This Project Is Impressive
 
 This project demonstrates:
 
 - End-to-End System Design  
 - Automation Workflow Engineering  
 - Backend Logic Development  
-- Product-Level Thinking  
+- Real-Time Ticket Management  
+- Structured Data Processing  
 - Scalable Architecture Planning  
-- Real-World Problem Solving  
 
----
-
-# 🔒 Data Privacy Notice
-
-All data used in this repository is sample/demo data for academic purposes only.  
-Sensitive information should not be publicly exposed in production environments.
+It reflects real-world product-level thinking.
 
 ---
 
@@ -223,8 +177,8 @@ Sensitive information should not be publicly exposed in production environments.
 
 **Siddu V**  
 Computer Science Engineer  
-Focused on Automation, System Design & Data Analytics  
+Focused on Automation & System Design  
 
 ---
 
-⭐ If you found this project valuable, consider giving it a star!
+⭐ If you found this project useful, consider giving it a star!

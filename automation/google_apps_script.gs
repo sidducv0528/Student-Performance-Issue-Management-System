@@ -164,4 +164,5 @@ function lookupEmail(roll) {
     if (data[i][0].toString().trim() === roll.toString().trim()) return data[i][17]; 
   }
   return null;
+
 }

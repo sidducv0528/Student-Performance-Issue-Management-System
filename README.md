@@ -57,7 +57,7 @@ It integrates:
 - 📩 Automated Email Reports  
 - 🎫 Smart Ticket Generation  
 - 🌐 Live Ticket Tracking Portal  
-- 📈 Academic Risk Prediction  
+- 📈 Academic Risk Flags  
 
 This creates a seamless academic monitoring and support ecosystem.
 
@@ -76,7 +76,7 @@ This creates a seamless academic monitoring and support ecosystem.
 - Semester-wise marks analysis  
 - Automatic average computation  
 - Performance classification (Excellent to Poor)  
-- Risk prediction based on attendance & marks  
+- Risk Flags based on attendance & marks  
 
 ---
 
